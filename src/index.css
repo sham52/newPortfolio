@@ -25,7 +25,7 @@
     --normal-font-size: 1rem;
     --small-font-size: 0.875rem;
     --smaller-font-size: 0.813rem;
-    ---tiny-font-size: 0.625rem;
+    --tiny-font-size: 0.625rem;
 
     /* Font weigth */
     --font-normal: 400;
@@ -169,14 +169,22 @@ img {
 /* BREAKPOINTS */
 
 /* For large devices */
-@media and (max-width: 992px) {
+@media screen and (max-width: 992px) {
+    .container{
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
 }
 /* For medium devices*/
-@media and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 }
 
-@media and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 }
 /*For small devices */
-@media and (max-width: 350px) {
+@media screen and (max-width: 350px) {
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }
