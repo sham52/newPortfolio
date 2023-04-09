@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Shamil ALTUNISIK
+        Sham.
         <svg
           width="36"
           height="36"
@@ -58,7 +58,7 @@ const Data = () => {
       <h3 className="home__subtitle">Jack Of All Trades</h3>
       <p className="home__description">
         Hi! My name is Shamil. I am a student at
-        <a className="italic" href="https://www.tedu.edu.tr/en" target="_blank">
+        <a className="descript_link" href="https://www.tedu.edu.tr/en" target="_blank">
           &nbsp;TED University&nbsp;
         </a>
         in the Department of Engineering. I am really into software development.

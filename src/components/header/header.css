@@ -31,8 +31,8 @@
     align-items: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
-    font-weight: var(--font-medium);
     transition: 0.3s;
+    font-weight: var(--font-medium);
 }
 
 .nav__icon,
