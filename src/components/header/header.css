@@ -47,6 +47,12 @@
     color: var(--title-color-dark);
 }
 
+/*Change Background Header*/
+
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 /* BREAKPOINTS */
 @media screen and (max-width: 768px) {
     .header {
@@ -70,8 +76,8 @@
     }
 
     /*Show Menu*/
-    .show-menu{
-        bottom:0;
+    .show-menu {
+        bottom: 0;
     }
     .nav__list {
         display: grid;
@@ -96,8 +102,8 @@
         color: var(--title-color-dark);
     }
 
-    .nav__toggle{
-        font-size:1.1rem;
+    .nav__toggle {
+        font-size: 1.1rem;
         cursor: pointer;
     }
 
