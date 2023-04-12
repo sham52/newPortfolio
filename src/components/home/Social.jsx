@@ -12,7 +12,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://discord.gg/MQmDAKY"
+        href="https://www.linkedin.com/in/%C5%9Famil-altun%C4%B1%C5%9F%C4%B1k-9a65a5235/"
         className="home__social-icon"
         target="_blank"
       >
