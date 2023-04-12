@@ -8,7 +8,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-instagram"></i>
+        <i className="uil uil-instagram"></i>
       </a>
 
       <a
@@ -16,7 +16,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-linkedin-alt" style={{ color: "" }}></i>
+        <i className="uil uil-linkedin-alt" style={{ color: "" }}></i>
       </a>
 
       <a
@@ -24,14 +24,14 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>
       </a>
       <a
         href="https://discord.gg/MQmDAKY"
         className="home__social-icon"
         target="_blank"
       >
-        {/* <i class="bx bxl-discord-alt"></i> */}
+        {/* <i className="bx bxl-discord-alt"></i> */}
         <img
           src="src\assets\discord.png"
           alt="discord"
@@ -44,7 +44,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        {/* <i class="bx bxl-youtube"></i> */}
+        {/* <i className="bx bxl-youtube"></i> */}
         <img
           src="src\assets\youtube.png"
           alt="youtube"
