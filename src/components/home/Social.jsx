@@ -34,6 +34,7 @@ const Social = () => {
         {/* <i className="bx bxl-discord-alt"></i> */}
         <img
           alt="discord"
+          src="../../assets/discord.png"
           className="home__social-img icon-dc"
           style={{ width: "1.3rem" }}
         />
@@ -45,6 +46,7 @@ const Social = () => {
       >
         {/* <i className="bx bxl-youtube"></i> */}
         <img
+          src="../../assets/youtube.png"
           alt="youtube"
           className="home__social-img icon-yt"
         />
