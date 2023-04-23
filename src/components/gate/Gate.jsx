@@ -9,6 +9,20 @@ const Gate = () => {
     const navigate = () => {
       console.log("navigate function runs");
       let password = sha256(value.toLowerCase());
+    
+      switch(value.toLowerCase()){
+        case 'zoro':
+          window.open("https://www.youtube.com/watch?v=luzpbvmNsjE", "_blank");
+        case 'sanji':
+          window.open("https://www.youtube.com/watch?v=OH8-BJ3s4l0", "_blank");
+        case 'yuşa':
+          window.open("https://www.instagram.com/one.piece.turkiye/", "_blank");
+          
+
+      }
+
+
+      //
       if (
         password ===
           "8fce9b966dcd6bf5afb0e54f67ed71aba50336b9dbc44c86e51a8bbe1dd4be26" ||
