@@ -9,7 +9,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
-import Gate from "./components/gate/gate";
+import Gate from "./components/gate/Gate";
 function App() {
   return (
     <>
