@@ -12,13 +12,11 @@ const Gate = () => {
     
       switch(value.toLowerCase()){
         case 'zoro':
-          window.open("https://www.youtube.com/watch?v=luzpbvmNsjE", "_blank");
+          window.open("https://www.youtube.com/watch?v=0zhOPb7K1XU", "_blank");
         case 'sanji':
           window.open("https://www.youtube.com/watch?v=OH8-BJ3s4l0", "_blank");
         case 'yuşa':
           window.open("https://www.instagram.com/one.piece.turkiye/", "_blank");
-          
-
       }
 
 
