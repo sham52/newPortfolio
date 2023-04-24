@@ -10,10 +10,12 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
 import Gate from "./components/gate/Gate";
+import BackgroundMusic from "./components/music/BackgroundMusic";
 function App() {
   return (
     <>
       <Header />
+      <BackgroundMusic/>
       <main className="main">
         <Home />
         <About />
@@ -28,6 +30,7 @@ function App() {
       <Footer />
       <ScrollUp />
       <Gate />
+  
     </>
   );
 }
