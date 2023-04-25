@@ -32,7 +32,6 @@
 
 .slider {
     -webkit-appearance: none;
-
     width: 100%;
     height: 5px;
     background: var(--title-color-dark);
