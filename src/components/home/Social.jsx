@@ -32,24 +32,26 @@ const Social = () => {
         target="_blank"
       >
         {/* <i className="bx bxl-discord-alt"></i> */}
-        <img
+        {/* <img
           alt="discord"
           src="/discord.png"
           className="home__social-img icon-dc"
           style={{ width: "1.3rem" }}
-        />
+        /> */}
+        <i class="bx bxl-discord-alt"></i>
       </a>
       <a
         href="https://www.youtube.com/channel/UCOI8aM3S3rOkDdWoq13oyyg"
         className="home__social-icon"
         target="_blank"
       >
-        {/* <i className="bx bxl-youtube"></i> */}
-        <img
+        <i className="bx bxl-youtube"></i>
+
+        {/* <img
           src="/youtube.png"
           alt="youtube"
           className="home__social-img icon-yt"
-        />
+        /> */}
       </a>
     </div>
   );
