@@ -18,7 +18,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer falan bilan bişiler
+            I'm working on both responsive web, front-end and back-end
+            technologies lately. Currently, I am learning Javascript (React,
+            Next) and Java. I'm also playing guitar on my Youtube channel if
+            you're interested.
           </p>
 
           <a download="" href={CV} className="button button--flex">
