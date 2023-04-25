@@ -53,10 +53,12 @@ const Qualification = () => {
             {/* DATA CELL */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Home Office </span>
+                <h3 className="qualification__title">
+                  Durugol <br /> Secondary-School
+                </h3>
+                <span className="qualification__subtitle">Student</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i>2016-2017
                 </div>
               </div>
 
@@ -76,12 +78,13 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Voluntarily Staff / IT</h3>
-                <span className="qualification__subtitle">
-                  Counter-Terrorism Branch
-                </span>
+                <h3 className="qualification__title">
+                  Suluova Science <br />
+                  High-School
+                </h3>
+                <span className="qualification__subtitle">Student</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                  <i className="uil uil-calendar-alt"></i> 2017 - 2019
                 </div>
               </div>
             </div>
@@ -89,10 +92,12 @@ const Qualification = () => {
             {/* DATA CELL */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Home Office </span>
+                <h3 className="qualification__title">
+                  Çankaya Anatolian <br /> High-School
+                </h3>
+                <span className="qualification__subtitle">Student</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2019-2021
                 </div>
               </div>
 
@@ -112,10 +117,8 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Voluntarily Staff / IT</h3>
-                <span className="qualification__subtitle">
-                  Counter-Terrorism Branch
-                </span>
+                <h3 className="qualification__title">TED University</h3>
+                <span className="qualification__subtitle">Freshman</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
@@ -133,46 +136,12 @@ const Qualification = () => {
             {/* DATA CELL */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Başka Development</h3>
-                <span className="qualification__subtitle">Home Office </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            {/* DATA CELL */}
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Başka Voluntarily Staff / IT</h3>
+                <h3 className="qualification__title">Voluntarily Staff / IT</h3>
                 <span className="qualification__subtitle">
                   Counter-Terrorism Branch
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
-                </div>
-              </div>
-            </div>
-
-            {/* DATA CELL */}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Daha da başka Web Development</h3>
-                <span className="qualification__subtitle">Home Office </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022-2023
                 </div>
               </div>
 
@@ -192,9 +161,47 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Voluntarily Staff / IT</h3>
+                <h3 className="qualification__title">Maybe some day...</h3>
                 <span className="qualification__subtitle">
-                  Counter-Terrorism Branch
+                  Still have hope :D
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Hayırlısı be gülüm.
+                </div>
+              </div>
+            </div>
+
+            {/* DATA CELL */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Maybe some day...</h3>
+                <span className="qualification__subtitle">
+                  Still have hope :D
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Hayırlısı be gülüm.
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            {/* DATA CELL */}
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Maybe some day...</h3>
+                <span className="qualification__subtitle">
+                  Hayırlısı be gülüm.
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022 - 2023

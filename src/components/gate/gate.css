@@ -4,11 +4,12 @@
     justify-content: center;
 }
 
-
 .gate__form-div {
     position: relative;
     margin-bottom: var(--mb-2);
     height: 4rem;
+    display:flex;
+    align-items: center;
 }
 
 .gate__form-input {

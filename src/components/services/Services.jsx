@@ -168,21 +168,21 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle service__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Website design and layout
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle service__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand
+                    Graphic design and branding
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle service__modal-icon"></i>
                   <p className="services__modal-info">
-                    Create a backend for your needs.
+                    User experience (UX) design
                   </p>
                 </li>
               </ul>
