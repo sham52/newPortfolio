@@ -32,7 +32,7 @@ const BackgroundMusic = () => {
     <section className="music__container">
       <i
         onClick={isPlaying ? handleStop : handlePlay}
-        className={`bx ${isPlaying ? "bx-play" : "bx-pause"} bg__music-icon`}
+        className={`bx ${isPlaying ? "bx-pause" : "bx-play"} bg__music-icon`}
       ></i>
       <audio ref={audioRef} src="/binksake.mp3" loop />
       <input
