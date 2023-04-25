@@ -1,13 +1,16 @@
 import React, { useState } from "react";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
+
 import "./header.css";
 
-const Header = () => {
+const Header = ({ toggleDarkMode, isDarkMode }) => {
   //Change Background Header
   window.addEventListener("scroll", () => {
     const header = document.querySelector(".header");
     if (scrollY >= 80) header.classList.add("scroll-header");
     else header.classList.remove("scroll-header");
   });
+
   /* Toggle Menu*/
   const [toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
@@ -100,6 +103,14 @@ const Header = () => {
               >
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
+            </li>
+            <li className="nav__item">
+              <DarkModeSwitch
+                className="dark-mode-btn"
+                checked={isDarkMode}
+                onChange={toggleDarkMode}
+                size={20}
+              />
             </li>
           </ul>
 

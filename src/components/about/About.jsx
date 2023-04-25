@@ -18,7 +18,6 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            
             I've been working on responsive web, front-end, and back-end
             technologies lately. Currently, I focus on Javascript (React, Node,
             Next) and Java. I'm also into music, playing guitar on my Youtube
@@ -28,7 +27,7 @@ const About = () => {
           <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

@@ -11,11 +11,18 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
 import Gate from "./components/gate/Gate";
 import BackgroundMusic from "./components/music/BackgroundMusic";
+import React, { useState } from "react";
 function App() {
+  const [isDarkMode, setDarkMode] = useState(true);
+  const toggleDarkMode = () => {
+    setDarkMode(!isDarkMode);
+    document.documentElement.classList.toggle("dark-mode", !isDarkMode);
+  };
+
   return (
-    <>
-      <Header />
-      <BackgroundMusic/>
+    <div className="dark-mode">
+      <Header toggleDarkMode={toggleDarkMode} isDarkMode = {isDarkMode}setDarkMode={setDarkMode} />
+      <BackgroundMusic />
       <main className="main">
         <Home />
         <About />
@@ -30,8 +37,7 @@ function App() {
       <Footer />
       <ScrollUp />
       <Gate />
-  
-    </>
+    </div>
   );
 }
 
