@@ -23,4 +23,11 @@ export const Data = [
     description:
       "Harika bir hizmet! Her detayı düşündüğünüz için çok teşekkür ederim. Çok profesyonelce ve hızlı bir şekilde işinizi yaptınız. Teşekkürler!",
   },
+  {
+    id: 4,
+    image: Image3,
+    title: "Huriye Teyze",
+    description:
+      "Harika bir hizmet! Her detayı düşündüğünüz için çok teşekkür ederim. Çok profesyonelce ve hızlı bir şekilde işinizi yaptınız. Teşekkürler!",
+  },
 ];

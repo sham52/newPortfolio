@@ -3,7 +3,7 @@ import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 import "./header.css";
 
-const Header = ({ toggleDarkMode, isDarkMode }) => {
+const Header = ({}) => {
   //Change Background Header
   window.addEventListener("scroll", () => {
     const header = document.querySelector(".header");
@@ -11,6 +11,11 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
     else header.classList.remove("scroll-header");
   });
 
+  const [isDarkMode, setDarkMode] = useState(false);
+  const toggleDarkMode = () => {
+    setDarkMode(!isDarkMode);
+    document.documentElement.classList.toggle("dark-mode", !isDarkMode);
+  };
   /* Toggle Menu*/
   const [toggle, setToggle] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
@@ -113,7 +118,6 @@ const Header = ({ toggleDarkMode, isDarkMode }) => {
               />
             </li>
           </ul>
-
           <i
             className="uil uil-times nav__close"
             onClick={() => {

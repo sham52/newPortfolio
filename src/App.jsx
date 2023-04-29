@@ -13,7 +13,7 @@ import Gate from "./components/gate/Gate";
 import BackgroundMusic from "./components/music/BackgroundMusic";
 import React, { useState } from "react";
 function App() {
-  const [isDarkMode, setDarkMode] = useState(true);
+  const [isDarkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
     setDarkMode(!isDarkMode);
     document.documentElement.classList.toggle("dark-mode", !isDarkMode);
